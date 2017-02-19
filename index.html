@@ -1,7 +1,7 @@
 <html lang="en">
 <head>
   <meta charset="utf-8">
-
+  <meta name="viewport" content="width=device-width,initial-scale=1.0">
   <title>fragileinc | nic.rdrqz</title>
   <meta name="description" content="The HTML5 Herald">
   <meta name="author" content="SitePoint">
@@ -33,7 +33,7 @@
 		display: flex;
 		justify-content: center;
 		align-content: center;
-		align-items: flex-end;
+		align-items: center;
 		height: 100vh;
 		width: 50vw;
 		margin: auto;
@@ -42,12 +42,15 @@
 		flex-flow: row wrap;	
 	}
 	
-	@media screen and(max-width: 800px) {
+	@media screen and(max-width: 700px) {
 	  .container{
 		width: 80vw;
 		}
 	body{
 		font-size: 160%;
+	}
+	.sig{
+		margin-bottom: 15vh
 	}
 	
 	}
@@ -65,7 +68,7 @@
 		<div class="content">
 			<h1>fragile inc </h1>
 			<p>is taking a sabbatical of sorts. for now you can find us <a href="http://nic.rdrqz.co">here</a> just doing the interactive design thing for now</p>
-			<p>-nic.rdrqz</p>
+			<p class="sig">-nic.rdrqz</p>
 		</div>
 	</div>	
 	
